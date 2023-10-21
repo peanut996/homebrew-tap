@@ -1,6 +1,6 @@
 require "language/go"
 
-class CloudflareWarpSpeedTest < Formula
+class Cloudflarewarpspeedtest < Formula
   desc "Speedtest tool for Cloudflare Warp"
   homepage "https://github.com/peanut996/CloudflareWarpSpeedTest"
   url "https://github.com/peanut996/CloudflareWarpSpeedTest/archive/refs/tags/v1.1.4.tar.gz"
