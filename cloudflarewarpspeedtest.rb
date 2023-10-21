@@ -6,6 +6,7 @@ class Cloudflarewarpspeedtest < Formula
   url "https://github.com/peanut996/CloudflareWarpSpeedTest/archive/refs/tags/v1.1.4.tar.gz"
   license "GPL V3"
   sha256 "b0a06717290a3f3bbef06857d9767efac4ea26df17282c17156b874feb75fec9"
+  version "v1.1.4"
 
   depends_on "go@1.20" => :build
 
