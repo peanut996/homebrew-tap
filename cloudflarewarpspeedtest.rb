@@ -12,7 +12,7 @@ class Cloudflarewarpspeedtest < Formula
     path = buildpath/"src/github.com/peanut996/CloudflareWarpSpeedTest"
     path.install Dir["*"]
     cd path do
-      system "go", "build", "-ldflags", "-X main.Version=v1.4.1", "-o", "#{bin}/CloudflareWarpSpeedTest"
+      system "go", "build", "-ldflags", "-X main.Version=v1.4.2", "-o", "#{bin}/CloudflareWarpSpeedTest"
     end
   end
 end
