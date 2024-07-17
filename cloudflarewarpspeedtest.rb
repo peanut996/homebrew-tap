@@ -1,8 +1,8 @@
 class Cloudflarewarpspeedtest < Formula
   desc "Speedtest tool for Cloudflare Warp"
   homepage "https://github.com/peanut996/CloudflareWarpSpeedTest"
-  url "https://github.com/peanut996/CloudflareWarpSpeedTest/archive/refs/tags/v1.5.1.tar.gz"
-  sha256 "abadba991dd7e66661f8e3d9d1f5ac3de44cfb9422f7c219fcf15feec340dea3"
+  url "https://github.com/peanut996/CloudflareWarpSpeedTest/archive/refs/tags/v1.5.3.tar.gz"
+  sha256 "70fe7a1de5a8097edb7820ad92ce0e9fc218deeb5785fdcfe851d42fbfba7f7b"
   license "GPL-3.0-only"
 
   depends_on "go@1.22" => :build
